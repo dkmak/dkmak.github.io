@@ -1,0 +1,124 @@
+body {
+	font-family: 'Lato', sans-serif;
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+nav {
+  margin: 0;
+  padding: 10px 0px;
+  background-color: #12908E;
+  color: #FFF;
+}
+header .row{
+  display: flex;
+  align-items: center;
+}
+header h2 {
+  font-weight: 500;
+  margin:0;
+}
+
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron p{
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.title{
+	text-align: center;
+}
+
+.img-circle{
+  border: 1px solid black;
+}
+.bg-1{
+  padding: 25px;
+   margin: 20px;
+   border: 1px solid black;
+    overflow: hidden;
+}
+
+
+.bg-2, .bg-3, .bg-4{
+	 /*border: 2px solid #000;*/
+	 padding: 30px;
+	 margin: 10px;
+   font-weight: 400;
+   
+}
+
+.bg-1,.bg-3{
+  background-color: #F98F45;
+  color: black;
+  
+}
+
+.bg-2, .bg-4{
+  background-color: #12908E;
+  color: black;
+  
+}
+
+.contact-btn {
+	float: right;
+}
+
+.contact-btn a {
+  /*margin-right: 30px;*/
+  padding: 8px 20px;
+  border: 1px solid #204156;
+  color:white;
+
+
+}
+
+.contact-btn a:active {
+  position: relative;
+  bottom: 2px;
+}
+
+
+img[alt="Das_me"]{
+    margin-right:15px;
+    float: left;
+}
+
+.appjam-icon{
+  position: relative;
+  top: 15px;
+}
+
+.follow_me li{
+	margin: 0;
+  padding: 0 10px;
+  display: inline;
+}
+
+.follow_me ul{
+	display: inline;
+}
+
+.companies{
+  text-align: center;
+}
+.companies li{
+  margin: 0;
+  padding: 0 10px;
+  display: inline;
+}
+
+.companies ul{
+  display: inline;
+}
