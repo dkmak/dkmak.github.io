@@ -5,10 +5,10 @@ body {
     width: 100%;
 }
 
-nav {
+/* nav {
     background-color: #4588e8;
     color: #FFF;
-}
+} */
 .jumbotron{
     background-image: url(bg.jpg);
     background-size: cover;
